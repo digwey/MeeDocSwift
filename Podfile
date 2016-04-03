@@ -4,7 +4,8 @@
 # use_frameworks!
 
 target 'MeeDocClient' do
-
+	pod 'Starscream', '~> 1.1.3'
+	use_frameworks! // 
 end
 
 target 'MeeDocClientTests' do
